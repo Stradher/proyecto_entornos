@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+h1:hover{
+    cursor: pointer;
+    color: brown;
+    transform: scale(1.1);
+    transition: all 1s;
+}
+h2{
+    color: white;
+    background-color: cadetblue;
+    text-align: center;
+    border-radius: 15px;
+    margin: 2%;
+    padding: 10px;
+}
+p{
+    margin: 5%;
+    border: 2px solid rgb(190, 190, 190);
+    padding: 20px;
+    text-align: justify;
+
+}
+p::first-letter{
+    font-size: 1.5em;
+    
+}
